@@ -1,0 +1,30 @@
+
+.sideNav{
+  background-color: black;
+  float: left;
+  position: absolute;
+  top: 300px;
+  left: 500px;
+
+}
+.Menu{
+	color: white;
+}
+.gallery{
+   margin: 10px 50px;
+}
+ .gallery img{
+    width:230px;
+   padding: 5px;
+}
+.gallery img:target{
+	position: relative;
+	top: 0;
+	max-height: 90%;
+}
+.f{
+ float: left;
+  position: absolute;
+  top: 300px;
+  left: 100px;	
+}
