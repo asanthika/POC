@@ -1,0 +1,159 @@
+<html>
+   <head>
+       <title>Restuarant website</title>
+       <link rel="stylesheet" href="style.css">
+       <link rel="stylesheet" href="style2.css">
+       <link rel="stylesheet" href="style6.css">
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
+       </script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+
+   
+
+   </head>
+  <body>
+<!-----navigationBar---->
+<section id="nav-bar">
+<nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" ><img src="img/logo2.jpg "></a> 
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="menu.html">MENU</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="order.html">ORDER</a>
+      </li>
+      
+        <li class="nav-item">
+        <a class="nav-link" href="feedback.html">FEEDBACK</a>
+   </li>
+    </ul>
+  </div>
+</nav>
+</section>
+
+<section >
+        <div class="sideNav">
+        <nav style="font-family:arial;font-size: 25px;background-color: #00ff00;padding: 10px 10px 10px 10px  ">
+          <table bgcolor="black" border="1" width="150" height="200" >
+            <tr><th><center><a href="lunch.html" style="color: white; ">  Lunch Menu </a><br></center></th></tr>
+            <tr><th><center><a href="dinner.html" style="color: white;"> Dinner Menu </a><br></center></th></tr>
+            <tr><th><center><a href="breakfast.html" style="color: white;">Breakfast Menu</a><br></center></th></tr>
+            <tr><th><center><a href="desserts.html" style="color: white;">Desserts</a><br></center></th></tr>
+            <tr><th><center><a href="bakery.html" style="color: white;">Bakery</a><br></center></th></tr>
+            <tr><th><center><a href="Others.html" style="color: white;">Others</a><br></center></th></tr>
+          </table>
+        </nav>
+        </div>
+
+<center>
+
+            <h1 style="color:black;font-size: 35px;background-color: #ffd603;border-radius: 15px;height: 40px;width: 30%;font-family: Lobster,cursive, sans-serif;
+            text-shadow: 1px 1px 0 #444f">Order Your Food</h1>
+        </center>
+        <div class="f">
+      <form style="color: white;" class="tab">
+        <table align="center" style="width :100%;" >
+          <tr >
+            <td>
+                <label for= "Name" >Full Name: </label>
+                </td><td>
+                <input type ="text" id="txtName" class ="ab" placeholder="FirstName LastName"><br/>
+                </td>
+              </tr><br>
+              <tr><td>
+                <label for= "email" >Email:</label>
+                </td><td>
+                <input type ="email" id="txtemail" class="ab" placeholder="EMAIL_ADDRESS"><br/>
+                </td></tr>
+                <tr><td>
+                <label for= "address" >Address:</label>
+                </td><td>
+                <input type ="text" id="address" class="ab" placeholder="Address"><br/>
+                </td></tr>
+                <tr><td>
+                <label for= "order">Your Order:</label>
+                </td><td>
+                    <select id ="tourpckg" > 
+                         <option>Red Rice & Curry</option>
+                         <option>Noodles</option> 
+                         <option>String Hoppers </option> 
+                         <option>Bread</option> 
+                         <option>parotta</option>
+                         <option>Omelette</option> 
+                         <option>Vegetable Salad</option> 
+                         <option> Chicken Soup </option> 
+                         <option>Normal Rice & Curry</option>
+                         <option>Rice & Curry (Fish)</option> 
+                         <option>Rice & Curry (Chicken)</option> 
+                         <option>Fried Rice</option> 
+                         <option>Chicken Fried Rice</option>
+                         <option>Omlet Fried Rice</option> 
+                         <option>Mixed Rice</option> 
+                         <option> Nasiguran</option> 
+                         <option>sandwich</option> 
+                         <option>pasta</option> 
+                         <option> rolls </option>
+                         <option>burger</option> 
+                         <option>Sausage Rolls</option> 
+                         <option> Pastries </option>  
+                    </select>
+                  </td>
+
+<td>
+                        <input type ="number" id="discoupn"  class="ab" placeholder="No of items">
+                     </td></tr>
+                     <tr>
+              <td>Total Items selected</td><td>
+              <input type ="number" id="discoupn"  class="ab" placeholder="UNKNOWN_TYPE"></td>  
+            </tr>
+              <tr><td>
+            <label for= "place">Payments </label> <br/> 
+           </td><td>
+                <input type ="radio" name="terms"  class="ab" value="Cash">Cash<br/>
+                <input type ="radio" name="terms"  class="ab" value="Online">Online<br/> 
+          </td></tr>
+
+
+          <tr>
+                <td><button style="height: 40px;width: 100%;">Submit</button></td>
+               </tr>
+        </table>  
+        </form>
+
+</div>
+</section>
+
+<div class="gallery">
+  <img src="img/14.jpg">
+  <img src="img/15.jpg">
+  <img src="img/16.jpg">
+  <img src="img/17.jpg">
+  
+  <img src="img/18.jpg">
+</div>
+
+<!------------Footer-------->
+ <footer style="background-color:black;color: white;height:100px; ">
+<center>Copyrights & copy 2020</center>
+
+
+</footer>
+<!------Footer End------>
+
+
+ 
+</body>
+</html>
